@@ -1,0 +1,87 @@
+# Environment variable file
+.env
+
+# Python virtual environments
+venv/
+.venv/
+venv310/
+
+# Python bytecode and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE settings
+.idea/
+.vscode/
+
+# Local database files
+*.sqlite3
+*.db
+
+# macOS system file
+.DS_Store
+
+# Large model files (these are too big for GitHub)
+*.bin
+*.safetensors
+*.model
+*.faiss
+*.json
+test_index.*
+
+# Model and data folders
+models/
+data/
+
+# Log and temporary files
+*.log
+*.tmp
+*.bak
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# PyTorch model files
+*.pth
+*.pt
+
+# Hugging Face cache
+.cache/
+huggingface/
+
+# Temporary files
+temp/
+tmp/
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+
+# Backup files
+*~
+*.swp
+*.swo
+
+# Large data files
+*.csv
+*.tsv
+*.xlsx
+*.xls
+
+# Audio/Video files
+*.mp3
+*.mp4
+*.wav
+*.avi
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+*.7z
